@@ -5,7 +5,7 @@ public class IntegerList {
        first = null; 
     }
     
-    public void add(Integer number) {
+    public void add(int number) {
         IntegerNode newNumber = new IntegerNode(number);
         if (first == null) {
             first = newNumber;
