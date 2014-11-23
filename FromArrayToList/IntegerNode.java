@@ -4,6 +4,7 @@ public class IntegerNode {
     
     public IntegerNode(int number) {
         this.number = number;
+        next = null;
     }
     
     public int getNumber() {
