@@ -1,5 +1,5 @@
 public class Queue {
-    IntegerNode first;
+    private IntegerNode first;
     
     public Queue() {
        first = null; 
