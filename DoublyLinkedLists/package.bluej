@@ -38,6 +38,7 @@ target2.editor.x=184
 target2.editor.y=81
 target2.height=50
 target2.name=PatientList
+target2.naviview.expanded=true
 target2.showInterface=false
 target2.type=ClassTarget
 target2.typeParameters=
