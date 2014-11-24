@@ -1,5 +1,5 @@
 public class IntegerList {
-    IntegerNode first;
+    private IntegerNode first;
     
     public IntegerList() {
        first = null; 
