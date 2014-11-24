@@ -1,5 +1,5 @@
 public class Stack {
-    IntegerNode first;
+    private IntegerNode first;
     
     public Stack() {
        first = null; 
