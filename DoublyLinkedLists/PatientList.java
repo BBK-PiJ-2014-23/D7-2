@@ -23,7 +23,9 @@ public class PatientList {
         PatientNode delNode = new PatientNode(patient);
         if (first.getPatient().getName().equals(delNode.getPatient().getName())) {
             first = first.getNext();
-            first.setPrevious(null);
+            if (first != null) {
+                first.setPrevious(null);
+            }
             return;
         }
         PatientNode current = first;
