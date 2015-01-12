@@ -23,6 +23,10 @@ public class PatientList {
     public void delete(Patient patient) {
         PatientNode delNode = new PatientNode(patient);
         if (first.getPatient().getName().equals(delNode.getPatient().getName())) {
+            if (first.getNext() == first) {
+                first = null;
+                return;
+            }
             PatientNode current = first;
             while (current.getNext() != first) {
                 current = current.getNext();
